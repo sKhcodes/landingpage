@@ -1,0 +1,231 @@
+
+.logo{
+    display:flex;
+    max-width:100%;
+    margin-bottom:30px;
+    margin-left: 30px;
+  }
+  
+  body{
+    background-color:white;
+  font-family: 'PT Sans', sans-serif;
+    color:black;
+  }
+  #header{
+    position:fixed;
+    width:100%;
+    margin:0px auto 0px;
+    display:flex;
+    max-height:120px;
+    background-color:white;
+    border:5px;
+    top:0;
+   
+  }
+  #header-img{
+    width:40%;
+  }
+  ul li{list-style:none;
+    
+  }
+  ul a{
+    text-decoration:none;
+    font-weight:400; 
+    border:none;
+    padding:3px 1px;
+    margin:2px;
+    background-color:white;
+    color:black;
+   
+  }
+  ul a:hover{
+    color:black;
+    background-color:pink;
+  }
+  .nav-link{
+    font-size:20px;
+  }
+  #columnspricing{
+    display:flex;
+    padding:20px 0px;
+    font-size:25px;
+    font-weight:700;
+    text-align:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #inside {
+      font-size: 30px;
+      min-height: 50px;
+      width: 100%;
+      display: grid;
+    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 400px);
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  .product{
+    width:30%;
+    height:500px;
+    margin:10px;
+  }
+  nav ul{
+  display:flex;
+  justify-content:space-between;
+  width:600px;
+  margin-top:30px;}
+  #introduction{
+    margin-top:50px;
+    text-align:center;
+    font-size:25px;
+    font-family: 'PT Sans', sans-serif;
+    padding:5px;
+    margin-bottom: 0px;
+  }
+  #heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+  }
+  .flex{
+   display:flex;
+    padding:10px 10px;;
+    font-size:25px;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  .icon{
+    color:deeppink;
+    font-size:50px;
+    padding:0px 40px;
+  }
+  #the-perfect-gift {
+    margin-top: 5px;
+    display:flex;
+    justify-content:center;
+      
+  }
+  iframe{
+    max-width: 560px;
+      width: 100%;
+  }
+  h3{
+    text-align:center;
+    font-size:30px;
+    padding:25px;
+    
+  }
+  .parcel{
+    background-image:url("http://www.paolomazzetto.it/wp-content/uploads/2018/06/book-bindings-box-cardboard-749344.jpg");
+    background-position:center;
+    background-size:cover;
+  }
+  .wrapped{
+    background-image:url("https://images.unsplash.com/photo-1513780194864-9ac1138f93ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ccca0ffabdd46fa1d32896ee3025ccd&auto=format&fit=crop&w=750&q=80");
+    background-size:cover;
+    background-position:center;
+  }
+  .scented{
+    background-image:url("https://images.unsplash.com/photo-1525375238555-1b7aaf1d9add?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=422bf9405ea9f88e78b4361594f2abe6&auto=format&fit=crop&w=334&q=80");
+    background-position:center;
+    background-size:cover;
+    
+  }
+  .name{
+    font-size:50px;
+    text-align:center;
+    
+  }
+  .price{color:#purple;
+    font-size:35px;
+    margin-top:300px;
+    padding:20px;
+    text-align:center;
+  }
+  .price a{
+    text-decoration:none;
+    color:purple;
+    border:solid;
+    padding:5px 20px;
+  }
+  .price a:hover {
+    color:black;
+    background-color:purple;
+  }
+  
+  #form{
+    display:flex;
+    justify-content:center;
+    margin-top: 5px;
+  }
+  #email{
+    width:400px;
+    height:40px;
+  }
+  .btn{
+    
+    padding:0px 10px;
+    font-size:20px;
+    font-weight:600;
+    width:200px;
+    background-color:pink;
+    color:black;
+    border:2px solid grey;
+    text-transform:uppercase;
+  }
+  #submit:hover{
+    color:#222;
+    background-color:deeppink;
+    border-color:black;
+    transition:background-color 2sec;
+  }
+  footer ul{
+    display:flex;
+    margin-top:50px;
+    margin-bottom:10px;
+    justify-content:center
+    
+  }
+  span{color:white;
+    display:flex;
+    justify-content:center;
+  }
+      
+    }
+    nav ul{
+       margin-top: 10px;
+      width: 300px;
+      padding:10px;
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      padding: 0 50px;
+      font-weight: 300;
+    }
+    #header{
+      display:flex;
+      background-color:white;
+      border:none;
+      
+    }
+  @media (max-width: 200px) { 
+    #header-img{
+      display:none;
+    }
+  }
+  @media (max-width: 200px) { 
+    nav ul{
+      flex-direction: column;
+    }
+  }
+    
+    .nav-link{
+      width:500px;
+      border:none;
+      font-size:20px;
+      margin:10px 10px;
+      line-height:30px;
+      flex-direction: row;
+      display: inline;
+    }
+  }
